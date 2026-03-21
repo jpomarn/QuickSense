@@ -8,7 +8,7 @@
 ## Screenshots
 
 ### Start Page
-![Start Page](dashboard.png)
+![Start Page](https://github.com/jpomarn/QuickSense/blob/main/QuickSense/images/start_page.png?raw=true)
 
 ### Dashboard / Lobby
 ![Dashboard](https://github.com/jpomarn/QuickSense/blob/main/QuickSense/images/dashboard.png?raw=true)
@@ -32,13 +32,13 @@
 1. Sign up or log in to access the tests.  
 2. Use the **hearing test** to check which frequencies you can hear.
 ### Hearing Test
-![Hearing Test](images/hearing_test.png)
+![Hearing Test](https://github.com/jpomarn/QuickSense/blob/main/QuickSense/images/hearing_test.png?raw=true)
 4. Try the **vision test** to see the smallest text you can comfortably read.  
 ### Vision Test
-![Vision Test](images/vision_test.png)
+![Vision Test](https://github.com/jpomarn/QuickSense/blob/main/QuickSense/images/vision_test.png?raw=true)
 5. View your **results and history** in the dashboard. 
 ### History Graph
-![History Graph](images/history_graph.png)
+![History Graph](https://github.com/jpomarn/QuickSense/blob/main/QuickSense/images/history_graph.png?raw=true)
 6. All results are stored securely in the backend database.
 
 ---
