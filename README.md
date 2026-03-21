@@ -8,10 +8,10 @@
 ## Screenshots
 
 ### Start Page
-![Start Page](start_page.png)
+![Start Page](images/start_page.png)
 
 ### Dashboard / Lobby
-![Dashboard](dashboard.png)
+![Dashboard](images/dashboard.png)
 
 
 ---
@@ -32,13 +32,13 @@
 1. Sign up or log in to access the tests.  
 2. Use the **hearing test** to check which frequencies you can hear.
 ### Hearing Test
-![Hearing Test](hearing_test.png)
+![Hearing Test](images/hearing_test.png)
 4. Try the **vision test** to see the smallest text you can comfortably read.  
 ### Vision Test
-![Vision Test](vision_test.png)
+![Vision Test](images/vision_test.png)
 5. View your **results and history** in the dashboard. 
 ### History Graph
-![History Graph](history_graph.png)
+![History Graph](images/history_graph.png)
 6. All results are stored securely in the backend database.
 
 ---
