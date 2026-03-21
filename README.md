@@ -11,7 +11,7 @@
 ![Start Page](dashboard.png)
 
 ### Dashboard / Lobby
-![Dashboard](images/dashboard.png)
+![Dashboard](https://github.com/jpomarn/QuickSense/blob/main/QuickSense/images/dashboard.png?raw=true)
 
 
 ---
