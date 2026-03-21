@@ -8,7 +8,7 @@
 ## Screenshots
 
 ### Start Page
-![Start Page](images/dashboard.png)
+![Start Page](dashboard.png)
 
 ### Dashboard / Lobby
 ![Dashboard](images/dashboard.png)
