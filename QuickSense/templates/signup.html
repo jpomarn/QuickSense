@@ -1,0 +1,27 @@
+<!--This Sign Up Page is for users that don't have an account can create a new one.  --->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up - QuickSense</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+<div class="auth-container">
+
+    <div class="auth-card signup-card">
+        <h2>Create Account</h2>
+        <form method="POST">
+            <input type="text" name="name" placeholder="First Name" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p>Already have an account? <a href="/login">Login</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>

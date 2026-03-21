@@ -1,0 +1,42 @@
+<!--This History Page is for users to keep track of their previous attemps along with a graph that shows them the times they have tested. --->
+<!DOCTYPE html>
+<html>
+<head>
+ <!---Name and adding in the background color -->
+
+    <title>History</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Your Test History 📊</h2>
+<p>
+    <h4>Track your previous test attempts here. </h4>
+</p>
+    <table>
+        <tr>
+            <th>Test</th>
+            <th>Result</th>
+            <th>Date</th>
+        </tr>
+
+        {% for row in data %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <canvas id="myChart"></canvas>
+
+    <a href="/dashboard"><button>Back</button></a>
+</div>
+
+<script src="/static/js/main.js"></script>
+
+</body>
+</html>

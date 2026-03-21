@@ -1,0 +1,50 @@
+<!--This Hearing Test is for users to test out their hearing and click on can hear and cannot hear buttons.  --->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!---Name and adding in the background color -->
+
+    <title>Hearing Test</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!--Test Start  -->
+
+<div class="container">
+    <h2>Hearing Test 👂</h2>
+
+    <p>Click start, then respond if you hear the sound.</p>
+
+    <button id="startBtn" onclick="startTest()">Start Test</button>
+
+<br><br>
+
+<div id="responseButtons" style="display: none;">
+    <button onclick="heardSound()">I Hear It</button>
+    <button onclick="didntHear()">I Don’t Hear It</button>
+</div>
+
+<script src="/static/js/hearing.js"></script>
+
+</body>
+</html>

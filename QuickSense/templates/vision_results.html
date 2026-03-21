@@ -1,0 +1,45 @@
+<!--This Vision Results Page is for users to automatically see their vision results pop up after their exam --->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vision Results</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+
+        .box {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Your Vision Results 👁️</h2>
+
+    <p>{{ result }}</p>
+
+    <a href="/dashboard">
+        <button>Back to Main Menu</button>
+    </a>
+</div>
+
+</body>
+</html>

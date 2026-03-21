@@ -1,0 +1,183 @@
+/* Color of the background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ece0d9;
+    text-align: center;
+}
+
+/* Dashboard container */
+.dashboard-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Split-screen tests */
+.split-tests {
+    display: flex;
+    height: 300px; /* fixed height for split screen */
+    margin-top: 30px;
+}
+
+/* Individual test cards */
+.test-card {
+    flex: 1;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.test-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Color coding */
+.hearing-card {
+    background: linear-gradient(135deg, #add9dd 0%, #e1ccf7 100%);
+}
+
+.vision-card {
+    background: linear-gradient(135deg, #8dee86 0%, #d4eed2 100%);
+}
+
+.test-card button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    font-weight: bold;
+}
+
+/* History section at bottom (full width) */
+.history-section {
+    background-color: #f0f0f0;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.history-section button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #abc4ef;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Logout button */
+.logout-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #f9868f;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Centered auth container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #dab8ff 0%, #aaedc6 100%);
+}
+
+/* Auth card (login/signup) */
+.auth-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.auth-card h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.auth-card input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.auth-card button {
+    width: 50%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2575fc;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-card a {
+    color: #c5d4ee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-card a:hover {
+    text-decoration: underline;
+}
+/* Reuse auth-container and auth-card */
+.index-card {
+    width: 400px;
+    text-align: center;
+}
+
+.index-card h1 {
+    margin-bottom: 20px;
+    color: #04101e;
+}
+
+.index-card p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Buttons side by side */
+.index-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index-buttons button {
+    width: 120px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(210, 87%, 73%);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.index-buttons button:hover {
+    background-color: #b399ce;
+}

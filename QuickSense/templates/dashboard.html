@@ -1,0 +1,43 @@
+<!--This Dashboard is a lobby for QuickSense showing both the tests on a split screen to better identify and istory section on the bottom. With a logout button. ---><!DOCTYPE html>
+<html>
+<head>
+    <!---Name and adding in the background color -->
+    <title>QuickSense Lobby</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <h1>Hello, {{ name }}! ✰</h1>
+    <p>Welcome to QuickSense. Choose a test or view your history below. </p>
+        <div><strong>Note:</strong> This is just a quick check — always consult a doctor for a professional diagnosis.</p> </div>
+
+    <!-- Split-screen tests -->
+    <div class="split-tests">
+        <div class="test-card hearing-card">
+            <h2>Hearing Test 🎧</h2>
+            <p>Check your hearing ability with a quick audio test.</p>
+            <a href="/hearing"><button>Start Hearing Test</button></a>
+        </div>
+
+        <div class="test-card vision-card">
+            <h2>Vision Test 👓</h2>
+            <p>Check your vision with a simple text reading test.</p>
+            <a href="/vision"><button>Start Vision Test</button></a>
+        </div>
+    </div>
+
+    <!-- History section at bottom -->
+    <div class="history-section">
+        <h2>Your History 📊</h2>
+        <p>See your previous test results over time.</p>
+        <a href="/history"><button>View History</button></a>
+    </div>
+
+    <a href="/logout"><button class="logout-btn">Logout</button></a>
+
+</div>
+
+</body>
+</html>

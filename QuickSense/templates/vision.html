@@ -1,0 +1,55 @@
+<!--This Vision Page is for users to test their vision.  --->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vision Test</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 400px;
+        }
+
+        #testText {
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Vision Test 👁️</h2>
+
+    <p style="color: #555;">
+        For best results, sit about <strong>20–28 inches (50–70 cm)</strong> from your screen.
+    </p>
+
+    <p>Can you read the text below?</p>
+
+    <p id="testText">HELLO</p>
+
+    <button onclick="canRead()">I Can Read It</button>
+    <button onclick="cantRead()">I Can’t Read It</button>
+
+    <p id="status"></p>
+</div>
+
+<script src="/static/js/vision.js"></script>
+
+</body>
+</html>
